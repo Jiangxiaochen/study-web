@@ -1,0 +1,6 @@
+AuthType Basic
+AuthUserFile "D:\software\dev-soft\Apache24\htdocs\userauth"
+AuthName "Restricted"
+<LIMIT GET POST>
+	Require valid-user
+</LIMIT>

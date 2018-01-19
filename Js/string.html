@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="./scripts/utils.js"></script>
+</head>
+<body>
+
+	<script type="text/javascript">
+		var str = " abcdef g  "
+		prinT(str)
+		prinT(str.charAt(1))	//返回指定索引位置的字符
+		prinT(str.charCodeAt(1))	//返回指定索引位置字符的 Unicode 值
+		prinT(str.concat("HIJ"))	//连接两个或多个字符串，返回连接后的字符串
+		//prinT(str.fromCharCode(18))	//将 Unicode 转换为字符串
+		prinT(str.indexOf("f"))	//返回字符串中检索指定字符第一次出现的位置,从零开始
+		prinT(str.lastIndexOf("f"))	//返回字符串中检索指定字符最后一次出现的位置
+		//prinT(str.localeCompare())	//用本地特定的顺序来比较两个字符串
+		prinT(str.match("cd."))//找到一个或多个正则表达式的匹配
+		prinT(str.replace("/cd./","CDF"))	//替换与正则表达式匹配的子串
+		prinT(str.search("/cd./"))	//检索与正则表达式相匹配的值
+		prinT(str.slice()	)//提取字符串的片断，并在新的字符串中返回被提取的部分
+		prinT(str.split(' ')	)//把字符串分割为子字符串数组
+		prinT(str.substr(4,5))	//从起始索引号提取字符串中指定数目的字符
+		prinT(str.substring(3,4))	//提取字符串中两个指定的索引号之间的字符
+		prinT(str.toLocaleLowerCase())	//根据主机的语言环境把字符串转换为小写，只有几种语言（如土耳其语）具有地方特有的大小写映射
+		prinT(str.toLocaleUpperCase())	//根据主机的语言环境把字符串转换为大写，只有几种语言（如土耳其语）具有地方特有的大小写映射
+		prinT(str.toLowerCase())	//把字符串转换为小写
+		prinT(str.toString())	//返回字符串对象值
+		prinT(str.toUpperCase())	//把字符串转换为大写
+		prinT(str.trim())	//移除字符串首尾空白
+		prinT(str.valueOf(str))	//返回某个字符串对象的原始值
+	</script>
+</body>
+</html>
